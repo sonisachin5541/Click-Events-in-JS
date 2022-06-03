@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.hand{
+    cursor: pointer;
+    user-select: none;
+    font-size: 13rem;
+
+}
+.eye{
+    display: none;
+}
+.ear{
+    display: none;
+}
+.mouth{
+    display: none;
+}
+.active{
+    display: block;
+}
